@@ -1,0 +1,284 @@
+<web-app>
+
+
+<context-param>
+	<param-name>dname</param-name>
+	<param-value>mysql</param-value>
+</context-param>
+<context-param>
+	<param-name>name</param-name>
+	<param-value>Suvarchala</param-value>
+</context-param>
+<context-param>
+	<param-name>location</param-name>
+	<param-value>blr</param-value>
+</context-param>
+<context-param>
+	<param-name>education</param-name>
+	<param-value>btech</param-value>
+</context-param>
+
+<servlet>
+	<servlet-name>allias1</servlet-name>
+	<servlet-class>com.SampleHttpSrv</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>allias1</servlet-name>
+	<url-pattern>/mobil</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>visting</servlet-name>
+	<servlet-class>com.VistSrv</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>visting</servlet-name>
+	<url-pattern>/vist</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>registration</servlet-name>
+	<servlet-class>com.RegSrv</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>registration</servlet-name>
+	<url-pattern>/reg</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>details</servlet-name>
+	<servlet-class>com.StaffSrv</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>details</servlet-name>
+	<url-pattern>/teacher</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>search</servlet-name>
+	<servlet-class>com.SearchRecSrv</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>search</servlet-name>
+	<url-pattern>/record</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>adding</servlet-name>
+	<servlet-class>com.ArthematicSrv</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>adding</servlet-name>
+	<url-pattern>/adder</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>add</servlet-name>
+	<servlet-class>com.ArthematicLinkSrv</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>add</servlet-name>
+	<url-pattern>/arthematic</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>contextsample</servlet-name>
+	<servlet-class>com.ServletCxtSample</servlet-class>
+</servlet>
+
+<init-param>
+	<param-name>location</param-name>
+	<param-value>blr</param-value>
+</init-param>
+<servlet-mapping>
+	<servlet-name>contextsample</servlet-name>
+	<url-pattern>/contextP</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>image</servlet-name>
+	<servlet-class>com.ImageSrv</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>image</servlet-name>
+	<url-pattern>/images</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>valid</servlet-name>
+	<servlet-class>com.ValidationSrv</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>valid</servlet-name>
+	<url-pattern>/Validation</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>well</servlet-name>
+	<servlet-class>com.WelcomeSrv</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>well</servlet-name>
+	<url-pattern>/Welcome2</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>sample</servlet-name>
+	<servlet-class>com.SampleCookie</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>sample</servlet-name>
+	<url-pattern>/Sample</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>sample1</servlet-name>
+	<servlet-class>com.SampleCookie2</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>sample1</servlet-name>
+	<url-pattern>/servlet2</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+<servlet>
+	<servlet-name>cookie</servlet-name>
+	<servlet-class>com.DisplayCookies</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>cookie</servlet-name>
+	<url-pattern>/cookies</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>cooky</servlet-name>
+	<servlet-class>com.Display2</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>cooky</servlet-name>
+	<url-pattern>/display2</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>login1</servlet-name>
+	<servlet-class>com.LoginSrv</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>login1</servlet-name>
+	<url-pattern>/LoginSrv</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>linked</servlet-name>
+	<servlet-class>com.LogoutSrv</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>linked</servlet-name>
+	<url-pattern>/LogoutSrv</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>profile</servlet-name>
+	<servlet-class>com.ProfileSrv</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>profile</servlet-name>
+	<url-pattern>/ProfileSrv</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>srv1</servlet-name>
+	<servlet-class>com.RegSrv1</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>srv1</servlet-name>
+	<url-pattern>/regSrv1</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>srv2</servlet-name>
+	<servlet-class>com.RegSrv2</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>srv2</servlet-name>
+	<url-pattern>/regSrv2</url-pattern>
+</servlet-mapping>
+
+
+
+
+<servlet>
+	<servlet-name>srv3</servlet-name>
+	<servlet-class>com.SecSrv1</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>srv3</servlet-name>
+	<url-pattern>/secSrv1</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>srv223</servlet-name>
+	<servlet-class>com.SecSrv2</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>srv223</servlet-name>
+	<url-pattern>/secSrv2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>srv224</servlet-name>
+	<servlet-class>com.SecSrv3</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>srv224</servlet-name>
+	<url-pattern>/secSrv3</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
+
+
+
+
